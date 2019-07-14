@@ -1,0 +1,9 @@
+{
+  "booklist": [
+    {"id":"001", "title":"黒と白の猫", "author": "小沼丹", "contained": "黒と白の猫"},
+    {"id":"002", "title":"タロオ", "author": "小沼丹", "contained": "黒と白の猫"},
+    {"id":"003", "title":"画文集 バウルの歌", "author": "秋野不矩", "contained": "画文集 バウルの歌"},
+    {"id":"004", "title":"雨の日はソファで散歩", "author": "種村季弘", "contained": "雨の日はソファで散歩"},
+    {"id":"005", "title":"創作落語論", "author": "五代目 柳家つばめ", "contained": "創作落語論"}
+  ]
+}

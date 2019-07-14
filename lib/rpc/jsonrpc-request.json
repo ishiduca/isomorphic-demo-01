@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "required": true,
+  "additionalProperties": false,
+  "properties": {
+    "jsonrpc": {
+      "name": "jsonrpc",
+      "type": "string",
+      "required": true,
+      "enum": [
+        "2.0"
+      ],
+      "addionalPropeties": false
+    },
+    "id": {
+      "name": "id",
+      "type": [
+        "null",
+        "number",
+        "string"
+      ],
+      "required": true,
+      "addionalPropeties": false
+    },
+    "method": {
+      "name": "method",
+      "type": "string",
+      "required": true,
+      "addionalPropeties": false
+    },
+    "params": {
+      "name": "params",
+      "type": [
+        "object",
+        "array"
+      ]
+    }
+  }
+}
